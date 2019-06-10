@@ -2,8 +2,8 @@
 notes and tips for my research 
 
     
-# on using FSL
-
+## on using FSL
+```
 FSLDIR=/usr/local/fsl
 
 . ${FSLDIR}/etc/fslconf/fsl.sh
@@ -11,3 +11,4 @@ FSLDIR=/usr/local/fsl
 PATH=${FSLDIR}/bin:${PATH}
 
 export FSLDIR PATH
+```
